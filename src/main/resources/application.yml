@@ -1,7 +1,8 @@
 spring:
   data:
     mongodb:
-      uri: "mongodb://user:user@localhost:27017/autoRia"
+      database: "autoRia"
+      uri: "mongodb://user:user@localhost:27017"
 
 server:
   servlet:

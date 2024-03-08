@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://user:user@localhost:27017/autoRia"
+
+server:
+  servlet:
+    context-path: "/api/v1"
